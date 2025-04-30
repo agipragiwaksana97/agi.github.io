@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kuisioner Cinta Kita 💕</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💖 Hai Sayang! Isi Yuk 💖</h1>
+    <form id="loveForm">
+      <div class="question">
+        <label>1. Bagaimana perasaanmu hari ini?</label><br>
+        <input type="radio" name="perasaan" value="luarbiasa!" required> luarbiasa! 😍<br>
+        <input type="radio" name="perasaan" value="b aja"> b aja 😐<br>
+        <input type="radio" name="perasaan" value="tidak seperti yang kuharapkan"> tidak seperti yang kuharapkan 😕<br>
+        <input type="radio" name="perasaan" value=":((("> :((( 😭<br>
+      </div>
+
+      <div class="question">
+        <label>2. Mau makan apa hari ini?</label><br>
+        <input type="text" name="makan" placeholder="Mie ayam, sushi, kamu?" required>
+      </div>
+
+      <div class="question">
+        <label>3. Maukah date hari ini?</label><br>
+        <select name="date" required>
+          <option value="">-- Pilih jawaban --</option>
+          <option value="Yes!">Yes! 🥰</option>
+          <option value="Mungkin">Mungkin 🤔</option>
+          <option value="Lagi capek">Lagi capek 😴</option>
+        </select>
+      </div>
+
+      <button type="submit">Kirim 💌</button>
+    </form>
+
+    <div id="thanks" class="hidden">
+      <h2>Terima kasih sayang 😘</h2>
+      <p>Jawabanmu udah terekam di hati ini 🥹</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #fff0f5;
+  color: #333;
+  text-align: center;
+  padding: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #ffeef8;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.question {
+  margin: 20px 0;
+  text-align: left;
+}
+
+button {
+  background-color: #ff69b4;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff85c1;
+}
+
+.hidden {
+  display: none;
+}
